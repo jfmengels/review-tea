@@ -1,3 +1,15 @@
+# DEPRECATED
+
+This package was republished as [`jfmengels/elm-review-the-elm-architecture`](https://package.elm-lang.org/packages/jfmengels/elm-review-the-elm-architecture/latest/) in order to have a more consistent naming convention for `elm-review` rule packages.
+
+To migrate, I recommend going to your review configuration and running the following commands:
+
+```bash
+# NOTE: You'll need to have Node.js installed to be able to use `npx`
+npx elm-json uninstall jfmengels/review-tea --yes
+npx elm-json install jfmengels/elm-review-the-elm-architecture --yes
+```
+
 # review-tea
 
 Provides [`elm-review`](https://package.elm-lang.org/packages/jfmengels/elm-review/latest/) rules to improve your use of The Elm Architecture.
