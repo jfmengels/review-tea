@@ -39,11 +39,3 @@ config =
     , NoUselessSubscriptions.rule
     ]
 ```
-
-## Try it out
-
-You can try the example configuration above out by running the following command:
-
-```bash
-elm-review --template jfmengels/review-tea/example
-```
